@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Yu-Gi-Oh Card Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="cards.js" defer></script>
+</head>
+
+<body>
+    <h1>Yu-Gi-Oh Card Guide</h1>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="my_cards.html">My Cards</a>
+    </nav>
+
+    <p>
+        Search for Yu-Gi-Oh cards and save cards you want to remember.
+    </p>
+
+    <form onsubmit="searchCards(); return false;">
+        <label for="cardSearch">Search Card:</label>
+        <input type="text" id="cardSearch" placeholder="Dark Magician">
+        <input type="submit" value="Search">
+    </form>
+
+    <h2>Cards</h2>
+    <div id="cardResults"></div>
+</body>
+</html>
