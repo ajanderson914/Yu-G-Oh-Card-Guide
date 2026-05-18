@@ -28,3 +28,7 @@ Future developers should first clone the GitHub repo to their computer.
 ```bash
 git clone your-github-repo-link-here
 cd yugioh_thing
+```
+
+## Vercel Link
+https://yu-g-oh-card-guide.vercel.app/
